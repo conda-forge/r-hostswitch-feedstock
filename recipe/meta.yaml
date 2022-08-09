@@ -1,4 +1,4 @@
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/HostSwitch_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/HostSwitch/HostSwitch_{{ version }}.tar.gz
-  sha256: 6475d041bfa8945476078c8f161d994f6d46e0056daf5687dbf1fdbb0a697378
+  sha256: 26609eee4117ab65d47aeb688a4a738b3423524bfc5645a81e23d27286b1b43f
 
 build:
   merge_build_host: true  # [win]
