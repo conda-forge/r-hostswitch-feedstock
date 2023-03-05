@@ -1,11 +1,11 @@
-About r-hostswitch
-==================
+About r-hostswitch-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-hostswitch-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/berndpanassiti/HostSwitch
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-hostswitch-feedstock/blob/main/LICENSE.txt)
 
 Summary: Using a simulation-based approach, the 'HostSwitch' package provides functions to investigate host switches by consumers. The individual-based model is based on the concept of ecological fitting. The mockup model is published by Araujo et al. 2015. Understanding Host-Switching by Ecological Fitting (<doi:10.1371/journal.pone.0139225>). The package provides an R-friendly and modified version of this model which can be applied to different consumer-resource scenarios.
 
