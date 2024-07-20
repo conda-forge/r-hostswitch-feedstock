@@ -1,6 +1,5 @@
 {% set version = "0.1.3" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-hostswitch
@@ -13,8 +12,7 @@ source:
   sha256: 64087269b87d0f9d67f60508e23320ed0bb0c2bd4ee615aa8ff9d3f1a5cc67a4
 
 build:
-  merge_build_host: true  # [win]
-  number: 1
+  number: 2
   noarch: generic
   rpaths:
     - lib/R/lib/
